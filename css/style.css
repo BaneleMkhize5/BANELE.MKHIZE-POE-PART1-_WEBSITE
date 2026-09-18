@@ -1,3 +1,19 @@
 body { font-family: Arial; background: #fff8e1; margin: 0; padding: 20px; }
 header { background: #ffb300; padding: 20px; text-align: center; }
 nav a { margin: 10px; color: white; text-decoration: none; }
+
+/* Part 2 Responsive */
+* { box-sizing: border-box; }
+img { max-width: 100%; height: auto; }
+
+@media (max-width: 768px) {
+  header { padding: 10px !important; }
+  nav { display: flex; flex-direction: column; gap: 8px; }
+  nav a { display: block; padding: 5px; }
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.4rem !important; }
+  body { font-size: 14px; }
+}
+
