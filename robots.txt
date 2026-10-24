@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://beecake-bakery.netlify.app/sitemap.xml

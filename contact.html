@@ -1,33 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - BeesCake Bakery</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <h1>Contact Us 🐝</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="pricing.html">Pricing</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    
-    <main>
-        <h2>Get In Touch</h2>
-        <p>Email: info@beescake.co.za</p>
-        <p>Phone: 012 345 6789</p>
-        <p>Address: 123 Honey Street, Durban</p>
-    </main>
-    
-    <footer>
-        <p>&copy; 2026 BeesCake Bakery</p>
-    </footer>
-    <script src="js/script.js"></script>
-</body>
-</html>
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact BeeCake | Order Custom Cake Durban</title>
+<meta name="description" content="Order your custom cake from BeeCake Bakery Durban. Contact us via form, email info@beecake.co.za">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<header><nav><a href="index.html">Home</a><a href="contact.html">Contact</a></nav></header>
+<main><div class="yellow-banner"></div>
+<h1>Get In Touch</h1>
+<p>Email: info@beecake.co.za<br>Phone: 012 345 6789<br>Address: 123 Honey Street, Durban</p>
+<h2>Order Enquiry Form (Section 4)</h2>
+<form id="contactForm" novalidate>
+<label>Full Name *<input type="text" id="name" required><span class="error" id="nameError"></span></label>
+<label>Email *<input type="email" id="email" required><span class="error" id="emailError"></span></label>
+<label>Phone *<input type="tel" id="phone" placeholder="0123456789" required><span class="error" id="phoneError"></span></label>
+<label>Cake Type *<select id="type" required><option value="">Select</option><option>Birthday Cake</option><option>Wedding Cake</option><option>Cupcakes</option></select><span class="error" id="typeError"></span></label>
+<label>Message *<textarea id="message" rows="4" required></textarea><span class="error" id="msgError"></span></label>
+<button type="submit">Submit Enquiry</button>
+</form>
+<div id="successModal" class="modal"><div class="modal-content"><span id="closeModal" style="float:right;cursor:pointer;font-size:24px;">&times;</span><h3>Thank you! 🐝</h3><p>Your cake enquiry received! We will buzz you within 24 hours.</p></div></div>
+</main><script src="js/main.js"></script></body></html>
